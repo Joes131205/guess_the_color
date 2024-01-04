@@ -10,6 +10,7 @@ body {
 section {
     border: 1px solid black;
 }
+
 .container-colors {
     display: grid;
     row-gap: 5rem;
