@@ -3,31 +3,48 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Guess Which Color</title>
+        <title>Choose The Correct Color</title>
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon//favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon//favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
     </head>
     <body>
         <section class="container-colors">
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
-            <div class="colors" data-color=""></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
+            <div class="colors"></div>
         </section>
         <section class="container-currColor">
             <p>Your color is: <span id="currColor">-</span></p>
-            <button id="playAgain">Play Again?</button>
-            <p id="encouraging-message"></p>
+            <button id="playAgain">Restart?</button>
+            <p id="encouraging-message">-</p>
         </section>
         <section class="container-status">
-            <p>Guesses: <span id="guesses">0</span></p>
-            <p>Correct Guesses so far: <span id="correctGuess">-</span></p>
-            <p>Your least guesses: <span id="leastGuess">-</span></p>
+            <p>Guesses left: <span id="guesses">5</span></p>
+            <p>Correct guesses so far: <span id="correctGuess">0</span></p>
+            <p>Your most guesses left: <span id="mostGuess">-</span></p>
         </section>
-
         <script src="index.js"></script>
     </body>
 </html>
